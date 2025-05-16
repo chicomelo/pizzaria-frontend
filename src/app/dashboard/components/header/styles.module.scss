@@ -1,0 +1,38 @@
+.headerContainer{
+    height: 7rem;
+    
+}
+
+.headerContent{
+    max-width: 1280px;
+    height: 7rem;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        a{
+            color: var(--white);
+            transition: all 0.2s;
+            &:hover{
+                color: var(--red-900);
+            }
+        }
+
+        button{
+            border: 0;
+            background: none;
+            color: var(--white);
+            transition: all 0.2s;
+            &:hover{
+                color: var(--red-900);
+            }
+        }
+    }
+}

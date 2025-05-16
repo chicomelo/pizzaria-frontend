@@ -1,0 +1,52 @@
+.container{
+    max-width: 720px;
+    margin: 42px auto 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        color: var(--white);
+    }
+}
+
+.containerHeader{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    button{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.listOrders{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+
+    .orderItem{
+        background-color: var(--dark-900);
+        font-size: 18px;
+        border-radius: 8px;
+        color: var(--white);
+        border-left: 6px solid var(--green-900);
+        padding: 12px 16px;
+        text-align: left;
+        transition: all 0.2s;
+
+        &:hover{
+            filter: brightness(1.4)
+        }
+    }
+
+    .nenhumPedido{
+        color: var(--gray-100);
+        text-align: center;
+        padding: 64px 0;
+    }
+}

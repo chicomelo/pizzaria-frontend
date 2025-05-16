@@ -1,0 +1,38 @@
+.container{
+    max-width: 720px;
+    margin: 42px auto 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        color: var(--white);
+    }
+}
+
+
+.form{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin: 24px 0 0 0;
+
+    input{
+        background-color: var(--dark-900);
+        border: 0;
+        padding: 16px;
+        width: 100%;
+        color: var(--white);
+        border: 1px solid transparent;
+        transition: 0.2s all;
+        &:focus{
+          border: 1px solid var(--dark-500)
+        }
+        &::placeholder{
+          color: #ffffff80;
+        }
+
+    }
+
+}
+

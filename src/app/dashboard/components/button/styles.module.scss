@@ -1,0 +1,17 @@
+.button{
+    color: var(--white);
+    background-color: var(--green-500);
+    padding: 16px;
+    transition: all 0.2s;
+    width: 100%;
+    max-width: 240px;
+    &:hover{
+        background-color: var(--green-700);
+        
+    }
+    &:disabled{
+        background-color: var(--gray-100);
+        color: var(--gray-50);
+        cursor: not-allowed;
+    }
+}
