@@ -3,7 +3,7 @@ import { FormCategory } from './FormCategory'
 import { handleRegisterCategory } from './actions'
 
 
-export default function Category(formData: FormData){
+export default function Category(){
 
     return(
         <main className={styles.container}>
